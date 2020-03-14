@@ -1,0 +1,66 @@
+div[id=children] > span{
+    display: block;
+    margin-left: 1em;
+}
+
+span{
+    display:inline-block;
+}
+
+#sign {
+    cursor: pointer;
+    background-color: salmon;
+    font-size: 10px;
+   }
+.highlight{
+    background-color: blueviolet;
+}
+#children{
+    margin-left: 1em;
+    cursor: pointer;
+}
+#nav{
+    height:100%;
+    width:30%;
+    background-color: hotpink;
+    float:left;
+    overflow: scroll;
+}
+
+#content{
+    width:70%;
+    height:80%;
+    background-color: deepskyblue;
+    float:right;
+}
+
+#footer{
+    width:70%;
+    height: 20%;
+    background-color:darkorchid;
+    float:right;
+}
+button{
+    background-color: salmon;
+    padding: 7px;
+    margin-top: 4%;
+    margin-left: 4%;
+    font-size: 25px;
+}
+/*
+Style the current selected action on the navigator.
+*/
+*[current]{
+    background-color: yellow;
+}
+/*
+Indent the anonymou sttaements*/
+div[indent]{
+    margin-left:10%; 
+}
+
+/*
+Labeled inputs are shown as a block*/
+label{
+    display:block;
+}
